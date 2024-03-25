@@ -1,0 +1,15 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-component": {
+      "ngOnInit": true,
+      "skipChangeDetectionOnPush": true
+    },
+    "angular-page": {
+      "skipNgOnInit": true,
+      "skipChangeDetectionOnPush": true
+    },
+    "angular-*": {
+      "externalTemplate": true
+    }
+  }
+}
